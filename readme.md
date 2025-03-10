@@ -33,8 +33,7 @@ pip install -r requirements.txt
 Скопируйте API Token (пример: 123456:ABC-DEF1234...)
 Получите Chat ID
 Напишите сообщение вашему боту
-Откройте https://api.telegram.org/bot<ВАШ_ТОКЕН>/getUpdates
-Найдите "id": 123456789 в ответе
+Узнайте ID пользователя через бота @userinfobot
 Настройте конфигурацию
 В файле main.py укажите:
 ```bash
